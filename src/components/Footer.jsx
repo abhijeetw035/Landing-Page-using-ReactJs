@@ -10,10 +10,7 @@ const Footer = () => {
           <ul className="space-y-2">
             {resourcesLinks.map((link, index) => (
               <li key={index}>
-                <a
-                  href={link.href}
-                  className="text-neutral-300 hover:text-orange-500"
-                >
+                <a className="text-neutral-300 hover:text-orange-500 cursor-pointer">
                   {link.text}
                 </a>
               </li>
@@ -25,10 +22,7 @@ const Footer = () => {
           <ul className="space-y-2">
             {platformLinks.map((link, index) => (
               <li key={index}>
-                <a
-                  href={link.href}
-                  className="text-neutral-300 hover:text-orange-500"
-                >
+                <a className="text-neutral-300 hover:text-orange-500 cursor-pointer">
                   {link.text}
                 </a>
               </li>
@@ -40,10 +34,7 @@ const Footer = () => {
           <ul className="space-y-2">
             {communityLinks.map((link, index) => (
               <li key={index}>
-                <a
-                  href={link.href}
-                  className="text-neutral-300 hover:text-orange-500"
-                >
+                <a className="text-neutral-300 hover:text-orange-500 cursor-pointer">
                   {link.text}
                 </a>
               </li>
