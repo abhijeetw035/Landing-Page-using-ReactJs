@@ -11,9 +11,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
-      {/* <Router> */}
         <Navbar />
-        {/* <Routes> */}
           <div className="max-w-7xl mx-auto pt-20 px-6">
             <HeroSection />
             <FeatureSection />
@@ -21,9 +19,7 @@ function App() {
             <Pricing />
             <Testimonials />
           </div>
-        {/* </Routes> */}
         <Footer />
-      {/* </Router> */}
     </>
   );
 }
